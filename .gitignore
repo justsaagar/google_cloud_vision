@@ -75,3 +75,4 @@ android/app/google-services.json
 /.idea
 /android/app/.cxx
 
+assets/json/service_credentials.json

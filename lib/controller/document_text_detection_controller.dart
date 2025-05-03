@@ -1,0 +1,8 @@
+import 'package:get/get.dart';
+import 'package:google_cloud_vision/main.dart';
+import 'package:google_cloud_vision/repository/document_text_detection_repository/document_text_detection_repository.dart';
+
+class DocumentTextDetectionController extends GetxController {
+  DocumentTextDetectionRepository documentTextDetectionRepository = getIt<DocumentTextDetectionRepository>();
+
+}

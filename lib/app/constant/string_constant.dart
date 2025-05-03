@@ -1,0 +1,59 @@
+class StringConstant {
+  static const String appName = 'Google Cloud Vision';
+  static const String labelDetection = 'Label Detection';
+  static const String selectImage = 'Select an image';
+  static const String detectLabels = 'Detect Labels';
+  static const String detectedLabels = 'Detected Labels';
+  static const String score = 'Score';
+  static const String documentTextFile = 'Document Text File Detection';
+  static const String extractedText = 'Extracted Text';
+  static const String uploadPdfFile = 'Upload a PDF file';
+  static const String detectDocumentText = 'Detect Document Text';
+  static const String noLanguageDetect = 'No languages detected yet';
+  static const String detectedLanguage = 'Detected Languages';
+  static const String noTextDetect = 'No text detected yets';
+  static const String detectFaces = 'Detect Faces';
+  static const String noFacesDetected = 'No faces detected';
+  static const String detectedFaces = 'Detected Faces';
+  static const String selectImageOption = 'Select Image Source';
+  static const String camera = 'Camera';
+  static const String gallery = 'Gallery';
+  static const String detectedLandmarks = 'Detected Landmarks';
+  static const String noLandmarksDetected = 'No landmarks detected';
+  static const String detectedLogos = 'Detected Logos';
+  static const String noLogosDetected = 'No Logos Detected';
+  static const String fraction = 'Fraction';
+  static const String rgb = 'RGB';
+  static const String noColorsDetected = 'No Colors Detected';
+  static const String dominantColors = 'Dominant Colors';
+  static const String detectProperties = 'Detect Properties';
+  static const webDetection = 'Web Detection';
+  static const detectWeb = 'Detect Web';
+  static const noWebResultsDetected = 'No web results detected';
+  static const webEntities = 'Web Entities';
+  static const matchingImages = 'Matching Images';
+  static const pagesWithMatchingImages = 'Pages with Matching Images';
+  static const description = 'Description';
+  static const url = 'URL';
+  static const title = 'Title';
+  static const detectedObjects = 'Detected Objects';
+
+  // Added from HomeScreenHelper DetectionModel list
+  static const String documentTextDetection = 'Document Text Detection';
+  static const String faceDetection = 'Face Detection';
+  static const String landmarkDetection = 'Landmark Detection';
+  static const String logoDetection = 'Logo Detection';
+  static const String safeSearch = 'Safe Search';
+  static const String imagePropertyDetection = 'Image Properties Detection';
+  static const String objectLocalization = 'Object Localization';
+
+  static const String labelDetectionDescription = 'Identify objects, scenes, and activities in images.';
+  static const String documentFileDetectionDescription = 'Extract text from File.';
+  static const String documentTextDetectionDescription = 'Extract text from images (OCR).';
+  static const String faceDetectionDescription = 'Detect faces and facial attributes.';
+  static const String landmarkDetectionDescription = 'Identify famous landmarks in images.';
+  static const String logoDetectionDescription = 'Recognize brand logos in images.';
+  static const String webDetectionDescription = 'Detect inappropriate content in images.';
+  static const String imagePropertyDetectionDescription = 'Detect image properties.';
+  static const String objectLocalizationDescription = 'Detect objects in images.';
+}
